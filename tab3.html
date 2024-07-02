@@ -13,6 +13,17 @@
 body {width: 100%; vertical-align: middle;
     background-color: transparent;font-family:  "EB Garamond", serif; font-size:12pt;
     opacity: 0.88; margin:0px 0px 0px 0px; padding:50px; text-align: center;}
+    
+    
+     div#flex-stack {
+			flex-direction: column;
+			vertical-align: middle;
+			display: flex;
+
+			max-width: 500px;
+			height: 100vh;
+			margin: auto;
+}
 		
 		</style>
 		<title>
@@ -20,11 +31,15 @@ body {width: 100%; vertical-align: middle;
 		</title>
 	</head>
 	<body>
-		<a href="index.html">Home</a>
-		<a href="tab2.html">Posts</a>
-		<a href="math.html">Math</a>
+		<div id="flex-stack">
+		
+		<div>
+			<a href="index.html">Home</a>
+			<a href="tab2.html">Posts</a>
+			<a href="math.html">Math</a>
     		<a href="writing.html">Literature</a>
-		<a href="tab3.html">Acknowledgments</a>
+			<a href="tab3.html">Acknowledgments</a>
+			</div>
 
 		<p><b>@iframe</b> for teaching me the HTMl code for this blog</p>
 		<p><b>Books</b> to (not) give me an idea of blog formatting</p>

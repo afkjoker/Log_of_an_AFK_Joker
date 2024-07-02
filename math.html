@@ -12,45 +12,63 @@
      background-size: cover; background-attachment:fixed; height:100%;}
 body {width: 100%; vertical-align: middle;
     background-color: transparent;font-family:  "EB Garamond", serif; font-size:12pt;
-    opacity: 0.88; margin:0px 0px 0px 0px; padding:50px; text-align: center;}
-		
+    opacity: 0.88; margin:0px 0px 0px 0px; text-align: center;}
+    
+    
+    
+     div#flex-stack {
+			flex-direction: column;
+			vertical-align: middle;
+			display: flex;
+
+			max-width: 500px;
+			height: 100vh;
+			margin: auto;
+			padding:50px; 
+}
 		</style>
 		<title>
 			Log of an AFK Joker
 		</title>
 	</head>
 	<body>
-		<a href="index.html">Home</a>
-		<a href="tab2.html">Posts</a>
-    		<a href="math.html">Math</a>
+		<div id="flex-stack">
+		
+		<div>
+			<a href="index.html">Home</a>
+			<a href="tab2.html">Posts</a>
+			<a href="math.html">Math</a>
     		<a href="writing.html">Literature</a>
-		<a href="tab3.html">Acknowledgments</a>
+			<a href="tab3.html">Acknowledgments</a>
+			</div>
 
 		<p>in case you were wondering, i'm a geo main</p>
 
 		<h1>2012 AMC 10B #25</h1>
 		
-		<p>A bug travels from A to B along the segments in the hexagonal lattice pictured above.</p> 
-		<p>The segments marked with an arrow can be traveled only in the direction of the arrow, and</p> 
-		<p>the bug never travels the same segment more than once. How many different paths are there?</p>
+		<p>A bug travels from A to B along the segments in the hexagonal lattice pictured above.
+		The segments marked with an arrow can be traveled only in the direction of the arrow, and
+		the bug never travels the same segment more than once. How many different paths are there?</p>
 		<img src="https://latex.artofproblemsolving.com/3/c/2/3c208832b26b520d3585031acd75a37563652720.png" alt="2012 AMC 10B #25 Diagram">
-		<p>To solve this, we can split the diagram into 5 sectors, knowing that each arrow not filled</p>
-		<p>in is "restricted" in a way. I drew vertical partitions along the arrow verticals that were</p>
-		<p>only filled, and found the path possibilities for each section in turn. After connecting each</p>
-		<p>sector based on the answers I recieved, the problem resulted in an answer of 2400. This one</p>
-		<p>was <b>strangely</b> similar to a programming question . . .</p>
+		<p>To solve this, we can split the diagram into 5 sectors, knowing that each arrow not filled
+		in is "restricted" in a way. I drew vertical partitions along the arrow verticals that were
+		only filled, and found the path possibilities for each section in turn. After connecting each
+		sector based on the answers I recieved, the problem resulted in an answer of 2400. This one
+		was <b>strangely</b> similar to a programming question.</p>
 
 		<h1>2011 AMC 10B #24-#25</h1>
-		<p>Though I can't seem to get the file onto the page, these two questions were very interesting,</p>
-		<p>#24 being about rays on the Cartesian plane, #25 being about triangle sequences, each triangle</p>
-		<p>a step down with side lengths at the tangent points of the triangle to its incircle . . .</p>
+		<p>Though I can't seem to get the file onto the page, these two questions were very interesting,
+		#24 being about rays on the Cartesian plane, #25 being about triangle sequences, each triangle
+		a step down with side lengths at the tangent points of the triangle to its incircle . . .</p>
 
 		<h1>2011 AMC 10B #22</h1>
-		<p>A pyramid has a square base with sides of length 1 and has lateral faces that are equilateral</p>
-		<p>triangles. A cube is placed within the pyramid so that one face is on the base of the pyramid</p>
-		<p>and its opposite face has all its edges on the faces of the pyramid. What's the cube volume?</p>
-		<p>This was interesting. 3-dimensional geo is fascinating to visualize. It took many steps to</p>
-		<p>end up with simple Pythagorean Theorems, but in the end, the answer was determined.</p>
+		<p>A pyramid has a square base with sides of length 1 and has lateral faces that are equilateral
+		triangles. A cube is placed within the pyramid so that one face is on the base of the pyramid
+		and its opposite face has all its edges on the faces of the pyramid. What's the cube volume?
+		This was interesting. 3-dimensional geo is fascinating to visualize. It took many steps to
+		end up with simple Pythagorean Theorems, but in the end, the answer was determined.</p>
+		
+		<p> </p>
 		
 	</body>
 </html>
